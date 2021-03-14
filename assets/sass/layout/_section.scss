@@ -1,0 +1,130 @@
+.banner-img {
+    height: 200px;
+}
+
+
+.banner-img img {
+
+    width: 100%;
+    height: auto;
+
+}
+
+
+.banner {
+    background-image: url('../img/image-banner.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+}
+
+
+.info {
+    border-bottom: 1px solid grey;
+    padding: 20px;
+
+
+
+    &__img-info {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        &__img {
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+
+        }
+
+    }
+
+    &__text-info {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        &__caja1 h3 {
+            font-family: $monserrat;
+            font-weight: $monserrat-bold;
+            font-size: 18px;
+            color: black;
+        }
+
+
+
+        &__caja2 p {
+            font-family: $monserrat;
+            font-weight: $monserrat-medium;
+            font-size: 12px;
+            color: grey;
+
+        }
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .info {
+        display: flex;
+        justify-content: center;
+    }
+
+    .banner {
+        background-image: url('../img/image-banner.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 100px;
+    }
+
+}
+
+.videos {
+
+    &__titulo h4 {
+        font-family: $monserrat;
+        font-weight: $monserrat-bold;
+        font-size: 16px;
+        margin: 5px;
+    }
+
+    &__visitas p {
+        font-family: $monserrat;
+        font-size: 12px;
+    }
+}
+
+.titulo-videos {
+    font-family: $monserrat;
+    font-weight: $monserrat-bold;
+}
+
+@media only screen and (max-width: 768px) {
+    .videos {
+        display: flex;
+        justify-content: center;
+        padding: 10px;
+    }
+
+    .videos {
+
+        &__titulo h4 {
+            font-family: $monserrat;
+            font-weight: $monserrat-bold;
+            font-size: 16px;
+            margin: 5px;
+        }
+
+        &__visitas p {
+            font-family: $monserrat;
+            font-size: 12px;
+        }
+    }
+
+    .titulo-videos {
+        font-family: $monserrat;
+        font-weight: $monserrat-bold;
+        text-align: center;
+    }
+}

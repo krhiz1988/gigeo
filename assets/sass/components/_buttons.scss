@@ -1,0 +1,39 @@
+.botones {
+
+
+
+    &__mensaje {
+        margin: 5px;
+        font-family: $monserrat;
+        font-weight: $monserrat-medium;
+        background-color: #93DCE5;
+        border: none;
+        color: white;
+
+        &:hover {
+            background-color: #93DCE5;
+            color: white;
+        }
+    }
+
+    &__seguir {
+        margin: 5px;
+        font-family: $monserrat;
+        font-weight: $monserrat-medium;
+        background-color: #EF6461;
+        border: none;
+        color: white;
+
+        &:hover {
+            background-color: #EF6461;
+            color: white;
+        }
+
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .botones {
+        display: none !important;
+    }
+}

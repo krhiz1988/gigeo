@@ -1,0 +1,23 @@
+.nav-titulo {
+    font-family: $poppins;
+    font-weight: $poppins-medium;
+    font-size: 30px;
+    color: black;
+
+    &:hover {
+        color: black;
+    }
+}
+
+.items-nav {
+
+    &__items-li {
+        padding: 8px;
+        font-size: 22px;
+    }
+
+    &__icon-burger {
+        font-weight: bold;
+        color: grey;
+    }
+}
